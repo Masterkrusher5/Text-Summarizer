@@ -2,5 +2,3 @@ streamlit==1.23.0
 transformers==4.11.3   # compatible with tokenizers==0.10.3
 huggingface_hub>=0.0.17,<0.1
 torch>=1.9.0
-sentencepiece==0.1.96
-tokenizers==0.10.3
