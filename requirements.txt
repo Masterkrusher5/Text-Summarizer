@@ -1,6 +1,5 @@
 transformers==4.30.0
 huggingface_hub>=0.14.1,<1.0
-pymupdf==1.19.6
 torch>=1.9.0
 sentencepiece==0.1.96  # compatible version for transformers
 tokenizers==0.13.3     # compatible version for transformers
