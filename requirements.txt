@@ -2,5 +2,6 @@ streamlit==1.23.0
 transformers==4.30.0
 huggingface_hub>=0.14.1,<1.0
 torch>=1.9.0
-sentencepiece==0.1.96
+sentencepiece==0.1.91
+tokenizers==0.10.3 
 Pillow==9.0.1
