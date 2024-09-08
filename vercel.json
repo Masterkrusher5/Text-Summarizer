@@ -1,18 +1,23 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "./index.py",
-        "use": "@vercel/python"
-        "env": {
+  "version": 2,
+  "builds": [
+    {
+      "src": "./index.py",
+      "use": "@vercel/python",
+      "config": {
+        "runtime": "python3.9"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.py"
+    }
+  ],
+  "build": {
+    "env": {
       "PIP_NO_CACHE_DIR": "false"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/"
-      }
-    ]
-
+    }
   }
+}
