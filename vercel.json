@@ -19,5 +19,6 @@
     "env": {
       "PIP_NO_CACHE_DIR": "false"
     }
-  }
+  },
+  "installCommand": "pip install --no-build-isolation -r requirements.txt"
 }
