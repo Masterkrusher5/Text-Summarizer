@@ -12,4 +12,12 @@
         "dest": "/"
       }
     ]
+    {
+  "build": {
+    "env": {
+      "PIP_NO_CACHE_DIR": "false"
+    }
+  }
+}
+
   }
