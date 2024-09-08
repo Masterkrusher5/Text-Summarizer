@@ -4,6 +4,8 @@
       {
         "src": "./index.py",
         "use": "@vercel/python"
+        "env": {
+      "PIP_NO_CACHE_DIR": "false"
       }
     ],
     "routes": [
@@ -12,12 +14,5 @@
         "dest": "/"
       }
     ]
-    {
-  "build": {
-    "env": {
-      "PIP_NO_CACHE_DIR": "false"
-    }
-  }
-}
 
   }
